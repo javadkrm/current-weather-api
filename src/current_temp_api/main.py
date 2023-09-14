@@ -1,5 +1,5 @@
 import requests
-from base import weatherAPIBase
+from .base import weatherAPIBase
 
 class OpenMeteo(weatherAPIBase):
     def __init__(self,latitude,longitude,**kwargs):
