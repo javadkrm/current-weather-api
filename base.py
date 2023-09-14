@@ -1,7 +1,7 @@
 from abc import ABC,abstractmethod
 import requests
 
-class weatherapi(ABC):
+class weatherAPIBase(ABC):
     def __init__(self,latitude,longitude,**kwargs):
         self.latitude = latitude
         self.longitude = longitude
